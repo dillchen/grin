@@ -155,7 +155,7 @@ impl fmt::Display for TargetError {
 ///
 /// The difficulty calculation is based on both Digishield and GravityWave
 /// family of difficulty computation, coming to something very close to Zcash.
-/// The refence difficulty is an average of the difficulty over a window of
+/// The reference difficulty is an average of the difficulty over a window of
 /// 23 blocks. The corresponding timespan is calculated by using the
 /// difference between the median timestamps at the beginning and the end
 /// of the window.

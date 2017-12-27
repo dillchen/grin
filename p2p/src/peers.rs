@@ -165,6 +165,20 @@ impl Peers {
 		}
 	}
 
+	/// Unbans a peer, but not connecting to it
+	pub fn unban_peer(&self, peer_addr: &SocketAddr) {
+		if let Err(e) = self.update_state(peer_addr.clone(), State::Disconnected) {
+			error!(LOGGER, "Couldn't unban {}, {:?}", peer_addr, e);
+		}
+
+		if let Some(peer) = self.get_peer(peer_addr) {
+			debug!(LOGGER, "Unbanning peer {}", peer_addr);
+
+			let peer = peer.write().unwrap();
+			peer.set_unbanned();
+		}
+	}
+
 	/// Broadcasts the provided block to PEER_PREFERRED_COUNT of our peers.
 	/// We may be connected to PEER_MAX_COUNT peers so we only
 	/// want to broadcast to a random subset of peers.

@@ -1,0 +1,316 @@
+Dec 22 03:11:23.492 INFO Using configuration file at: /Users/Dillon/grin/grin.toml
+Dec 22 03:11:23.522 INFO Starting the Grin server from configuration file at /Users/Dillon/grin/grin.toml
+Dec 22 03:11:23.600 INFO Saved genesis block with hash: e17ea64f, nonce: 28205, pow: Cuckoo(21e 7a2 eae 144e 1b1c 1fbd 203a 214b 293b 2b74 2bfa 2c26 32bb 346a 34c7 37c5 4164 42cc 4cc3 55af 5a70 5b14 5e1c 5f76 6061 60f9 61d7 6318 63a1 63fb 649b 64e5 65a1 6b69 70f8 71c7 71cd 7492 7b11 7db8 7f29 7ff8)
+Dec 22 03:11:23.600 INFO Chain init: Tip { height: 0, last_block_h: e17ea64f, prev_block_h: e17ea64f, total_difficulty: Difficulty { num: 1 } }
+Dec 22 03:11:23.629 WARN P2P server started on 0.0.0.0:13414
+Dec 22 03:11:23.632 INFO Starting rest apis at: 127.0.0.1:13413
+Dec 22 03:11:23.634 WARN Grin server started.
+Dec 22 03:11:23.638 DEBG Retrieving seed nodes from http://grin-tech.org/seeds.txt
+Dec 22 03:11:23.639 INFO Starting HTTP API server at 127.0.0.1:13413.
+Dec 22 03:11:23.914 DEBG Retrieved seed addresses: [V4(192.241.168.77:13414), V4(109.74.202.16:13414), V4(174.138.116.153:13414), V4(46.4.91.48:13414), V4(51.15.219.12:13414), V4(34.213.47.21:13414)]
+Dec 22 03:11:23.914 DEBG New peer address to connect to: 192.241.168.77:13414.
+Dec 22 03:11:23.914 DEBG connect_peer: connecting to 192.241.168.77:13414
+Dec 22 03:11:23.916 DEBG New peer address to connect to: 109.74.202.16:13414.
+Dec 22 03:11:23.916 DEBG connect_peer: connecting to 109.74.202.16:13414
+Dec 22 03:11:23.917 DEBG New peer address to connect to: 174.138.116.153:13414.
+Dec 22 03:11:23.918 DEBG connect_peer: connecting to 174.138.116.153:13414
+Dec 22 03:11:23.940 DEBG New peer address to connect to: 46.4.91.48:13414.
+Dec 22 03:11:23.941 DEBG connect_peer: connecting to 46.4.91.48:13414
+Dec 22 03:11:23.957 DEBG New peer address to connect to: 51.15.219.12:13414.
+Dec 22 03:11:23.957 DEBG connect_peer: connecting to 51.15.219.12:13414
+Dec 22 03:11:23.959 DEBG New peer address to connect to: 34.213.47.21:13414.
+Dec 22 03:11:23.959 DEBG connect_peer: connecting to 34.213.47.21:13414
+Dec 22 03:11:23.961 DEBG handshake connect with nonce - 6723314261604485544, sender - V4(0.0.0.0:13414), receiver - V4(192.241.168.77:13414)
+Dec 22 03:11:23.967 DEBG handshake connect with nonce - 7825582656631735689, sender - V4(0.0.0.0:13414), receiver - V4(174.138.116.153:13414)
+Dec 22 03:11:24.026 DEBG handshake connect with nonce - 9622766686827040864, sender - V4(0.0.0.0:13414), receiver - V4(109.74.202.16:13414)
+Dec 22 03:11:24.036 INFO Connected to peer PeerInfo { capabilities: FULL_HIST | UTXO_HIST | PEER_LIST | FULL_NODE, user_agent: "MW/Grin 0.1.20171212", version: 1, addr: V4(192.241.168.77:13414), total_difficulty: Difficulty { num: 179621832 } }
+Dec 22 03:11:24.036 DEBG Saving newly connected peer 192.241.168.77:13414.
+Dec 22 03:11:24.036 DEBG save_peer: V4(192.241.168.77:13414) marked Healthy
+Dec 22 03:11:24.050 DEBG connect_and_req: ok. attempting send_peer_request
+Dec 22 03:11:24.050 DEBG Asking 192.241.168.77:13414 for more peers.
+Dec 22 03:11:24.050 TRCE timeout_conn: registering: PeerAddrs, None
+Dec 22 03:11:24.050 INFO Connected to peer PeerInfo { capabilities: FULL_HIST | UTXO_HIST | PEER_LIST | FULL_NODE, user_agent: "MW/Grin 0.1.20171212", version: 1, addr: V4(174.138.116.153:13414), total_difficulty: Difficulty { num: 182144229 } }
+Dec 22 03:11:24.053 DEBG Saving newly connected peer 174.138.116.153:13414.
+Dec 22 03:11:24.057 DEBG save_peer: V4(174.138.116.153:13414) marked Healthy
+Dec 22 03:11:24.060 DEBG connect_and_req: ok. attempting send_peer_request
+Dec 22 03:11:24.060 DEBG Asking 174.138.116.153:13414 for more peers.
+Dec 22 03:11:24.060 TRCE timeout_conn: registering: PeerAddrs, None
+Dec 22 03:11:24.060 TRCE read_msg: count (per buffered fold): 1
+Dec 22 03:11:24.061 TRCE write_msg: start
+Dec 22 03:11:24.062 TRCE write_msg: done
+Dec 22 03:11:24.071 TRCE read_msg: count (per buffered fold): 1
+Dec 22 03:11:24.074 TRCE write_msg: start
+Dec 22 03:11:24.075 TRCE write_msg: done
+Dec 22 03:11:24.076 DEBG handshake connect with nonce - 1711086729365576254, sender - V4(0.0.0.0:13414), receiver - V4(34.213.47.21:13414)
+Dec 22 03:11:24.076 DEBG handshake connect with nonce - 11272074533753180116, sender - V4(0.0.0.0:13414), receiver - V4(51.15.219.12:13414)
+Dec 22 03:11:24.082 DEBG handshake connect with nonce - 498344051472382250, sender - V4(0.0.0.0:13414), receiver - V4(46.4.91.48:13414)
+Dec 22 03:11:24.093 TRCE read_msg: start
+Dec 22 03:11:24.095 DEBG Received 8 peer addrs, saving.
+Dec 22 03:11:24.095 DEBG save_peer: V4(18.221.185.70:13414) marked Healthy
+Dec 22 03:11:24.095 DEBG save_peer: V4(92.37.142.162:13414) marked Healthy
+Dec 22 03:11:24.095 DEBG save_peer: V4(88.99.251.87:13414) marked Healthy
+Dec 22 03:11:24.095 DEBG save_peer: V4(73.165.39.30:13414) marked Healthy
+Dec 22 03:11:24.096 DEBG save_peer: V4(51.15.219.12:13414) marked Healthy
+Dec 22 03:11:24.096 DEBG save_peer: V4(164.132.230.217:13414) marked Healthy
+Dec 22 03:11:24.096 DEBG save_peer: V4(109.74.202.16:13414) marked Healthy
+Dec 22 03:11:24.096 DEBG save_peer: V4(94.130.66.48:13414) marked Healthy
+Dec 22 03:11:24.096 TRCE read_msg: done (via cpu_pool)
+Dec 22 03:11:24.099 TRCE read_msg: count (per buffered fold): 2
+Dec 22 03:11:24.108 TRCE read_msg: start
+Dec 22 03:11:24.109 DEBG Received 31 peer addrs, saving.
+Dec 22 03:11:24.109 DEBG save_peer: V4(107.77.172.42:13414) marked Healthy
+Dec 22 03:11:24.109 DEBG save_peer: V4(97.92.110.34:13414) marked Healthy
+Dec 22 03:11:24.109 DEBG save_peer: V4(107.77.172.43:13414) marked Healthy
+Dec 22 03:11:24.109 DEBG save_peer: V4(213.34.88.122:13414) marked Healthy
+Dec 22 03:11:24.109 DEBG save_peer: V4(69.12.80.147:13414) marked Healthy
+Dec 22 03:11:24.109 DEBG save_peer: V4(37.59.48.28:13414) marked Healthy
+Dec 22 03:11:24.110 DEBG save_peer: V4(138.68.178.20:13414) marked Healthy
+Dec 22 03:11:24.110 DEBG save_peer: V4(107.77.172.18:13414) marked Healthy
+Dec 22 03:11:24.110 DEBG save_peer: V4(92.37.142.57:13414) marked Healthy
+Dec 22 03:11:24.110 DEBG save_peer: V4(159.203.115.159:13414) marked Healthy
+Dec 22 03:11:24.110 DEBG save_peer: V4(46.101.149.191:13414) marked Healthy
+Dec 22 03:11:24.110 DEBG save_peer: V4(107.77.172.26:13414) marked Healthy
+Dec 22 03:11:24.110 DEBG save_peer: V4(107.77.172.51:13414) marked Healthy
+Dec 22 03:11:24.110 DEBG save_peer: V4(107.77.172.50:13414) marked Healthy
+Dec 22 03:11:24.110 DEBG save_peer: V4(83.162.208.57:13414) marked Healthy
+Dec 22 03:11:24.110 DEBG save_peer: V4(99.230.200.12:13414) marked Healthy
+Dec 22 03:11:24.111 DEBG save_peer: V4(165.227.63.166:13414) marked Healthy
+Dec 22 03:11:24.111 DEBG save_peer: V4(107.77.172.35:13414) marked Healthy
+Dec 22 03:11:24.111 DEBG save_peer: V4(54.199.176.92:13414) marked Healthy
+Dec 22 03:11:24.111 DEBG save_peer: V4(139.59.105.169:13414) marked Healthy
+Dec 22 03:11:24.111 DEBG save_peer: V4(92.37.143.17:13414) marked Healthy
+Dec 22 03:11:24.111 DEBG save_peer: V4(46.4.91.48:13414) marked Healthy
+Dec 22 03:11:24.111 DEBG save_peer: V4(36.232.48.81:13414) marked Healthy
+Dec 22 03:11:24.111 DEBG save_peer: V4(216.188.199.212:13414) marked Healthy
+Dec 22 03:11:24.112 DEBG save_peer: V4(107.77.172.34:13414) marked Healthy
+Dec 22 03:11:24.112 TRCE read_msg: done (via cpu_pool)
+Dec 22 03:11:24.118 TRCE read_msg: count (per buffered fold): 2
+Dec 22 03:11:24.415 INFO Connected to peer PeerInfo { capabilities: FULL_HIST | UTXO_HIST | PEER_LIST | FULL_NODE, user_agent: "MW/Grin 0.1.20171212", version: 1, addr: V4(51.15.219.12:13414), total_difficulty: Difficulty { num: 15916398 } }
+Dec 22 03:11:24.415 DEBG Saving newly connected peer 51.15.219.12:13414.
+Dec 22 03:11:24.415 DEBG save_peer: V4(51.15.219.12:13414) marked Healthy
+Dec 22 03:11:24.417 DEBG connect_and_req: ok. attempting send_peer_request
+Dec 22 03:11:24.417 DEBG Asking 51.15.219.12:13414 for more peers.
+Dec 22 03:11:24.417 TRCE timeout_conn: registering: PeerAddrs, None
+Dec 22 03:11:24.417 TRCE read_msg: count (per buffered fold): 1
+Dec 22 03:11:24.417 TRCE write_msg: start
+Dec 22 03:11:24.417 TRCE write_msg: done
+Dec 22 03:11:24.417 INFO Connected to peer PeerInfo { capabilities: FULL_HIST | UTXO_HIST | PEER_LIST | FULL_NODE, user_agent: "MW/Grin 0.1.20171212", version: 1, addr: V4(109.74.202.16:13414), total_difficulty: Difficulty { num: 180108492 } }
+Dec 22 03:11:24.417 DEBG Saving newly connected peer 109.74.202.16:13414.
+Dec 22 03:11:24.418 DEBG save_peer: V4(109.74.202.16:13414) marked Healthy
+Dec 22 03:11:24.419 DEBG connect_and_req: ok. attempting send_peer_request
+Dec 22 03:11:24.419 DEBG Asking 109.74.202.16:13414 for more peers.
+Dec 22 03:11:24.419 TRCE timeout_conn: registering: PeerAddrs, None
+Dec 22 03:11:24.419 INFO Connected to peer PeerInfo { capabilities: FULL_HIST | UTXO_HIST | PEER_LIST | FULL_NODE, user_agent: "MW/Grin 0.1.20171212", version: 1, addr: V4(34.213.47.21:13414), total_difficulty: Difficulty { num: 182144229 } }
+Dec 22 03:11:24.419 DEBG Saving newly connected peer 34.213.47.21:13414.
+Dec 22 03:11:24.419 DEBG save_peer: V4(34.213.47.21:13414) marked Healthy
+Dec 22 03:11:24.420 DEBG connect_and_req: ok. attempting send_peer_request
+Dec 22 03:11:24.420 DEBG Asking 34.213.47.21:13414 for more peers.
+Dec 22 03:11:24.420 TRCE timeout_conn: registering: PeerAddrs, None
+Dec 22 03:11:24.421 TRCE read_msg: count (per buffered fold): 1
+Dec 22 03:11:24.421 TRCE write_msg: start
+Dec 22 03:11:24.421 TRCE write_msg: done
+Dec 22 03:11:24.421 TRCE read_msg: count (per buffered fold): 1
+Dec 22 03:11:24.421 TRCE write_msg: start
+Dec 22 03:11:24.421 TRCE write_msg: done
+Dec 22 03:11:24.524 TRCE read_msg: start
+Dec 22 03:11:24.524 DEBG Received 17 peer addrs, saving.
+Dec 22 03:11:24.525 DEBG save_peer: V4(87.122.110.146:13414) marked Healthy
+Dec 22 03:11:24.525 DEBG save_peer: V4(73.202.151.99:13414) marked Healthy
+Dec 22 03:11:24.525 DEBG save_peer: V4(71.6.83.146:13414) marked Healthy
+Dec 22 03:11:24.525 DEBG save_peer: V4(159.203.14.37:13414) marked Healthy
+Dec 22 03:11:24.525 TRCE read_msg: start
+Dec 22 03:11:24.525 TRCE read_msg: done (via cpu_pool)
+Dec 22 03:11:24.525 DEBG Received 7 peer addrs, saving.
+Dec 22 03:11:24.525 TRCE read_msg: count (per buffered fold): 2
+Dec 22 03:11:24.525 DEBG save_peer: V4(51.15.56.119:13414) marked Healthy
+Dec 22 03:11:24.525 DEBG save_peer: V4(104.236.150.29:13414) marked Healthy
+Dec 22 03:11:24.525 TRCE read_msg: done (via cpu_pool)
+Dec 22 03:11:24.526 TRCE read_msg: count (per buffered fold): 2
+Dec 22 03:11:24.530 INFO Connected to peer PeerInfo { capabilities: FULL_HIST | UTXO_HIST | PEER_LIST | FULL_NODE, user_agent: "MW/Grin 0.1.20171212", version: 1, addr: V4(46.4.91.48:13414), total_difficulty: Difficulty { num: 179621832 } }
+Dec 22 03:11:24.530 DEBG Saving newly connected peer 46.4.91.48:13414.
+Dec 22 03:11:24.530 DEBG save_peer: V4(46.4.91.48:13414) marked Healthy
+Dec 22 03:11:24.531 DEBG connect_and_req: ok. attempting send_peer_request
+Dec 22 03:11:24.531 DEBG Asking 46.4.91.48:13414 for more peers.
+Dec 22 03:11:24.531 TRCE timeout_conn: registering: PeerAddrs, None
+Dec 22 03:11:24.532 TRCE read_msg: count (per buffered fold): 1
+Dec 22 03:11:24.532 TRCE write_msg: start
+Dec 22 03:11:24.532 TRCE write_msg: done
+Dec 22 03:11:24.649 TRCE read_msg: start
+Dec 22 03:11:24.649 DEBG Received 6 peer addrs, saving.
+Dec 22 03:11:24.650 DEBG save_peer: V4(5.101.137.252:13414) marked Healthy
+Dec 22 03:11:24.650 TRCE read_msg: done (via cpu_pool)
+Dec 22 03:11:24.650 TRCE read_msg: count (per buffered fold): 2
+Dec 22 03:11:25.288 TRCE read_msg: start
+Dec 22 03:11:25.289 DEBG peer total_diff @ height (ping/pong): 46.4.91.48:13414: 179621832 @ 26127 vs us: 1 @ 0
+Dec 22 03:11:25.289 TRCE read_msg: done (via cpu_pool)
+Dec 22 03:11:25.289 TRCE read_msg: count (per buffered fold): 3
+Dec 22 03:11:25.289 TRCE write_msg: start
+Dec 22 03:11:25.289 TRCE write_msg: done
+Dec 22 03:11:25.802 TRCE read_msg: start
+Dec 22 03:11:25.803 DEBG Got 6 peer addrs to send.
+Dec 22 03:11:25.803 TRCE read_msg: done (via cpu_pool)
+Dec 22 03:11:25.803 TRCE read_msg: count (per buffered fold): 4
+Dec 22 03:11:25.803 TRCE write_msg: start
+Dec 22 03:11:25.803 TRCE write_msg: done
+Dec 22 03:11:26.056 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:26.061 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:26.421 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:26.421 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:26.421 TRCE timeout_conn: currently registered: 1
+Dec 22 03:11:26.532 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:28.049 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:28.061 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:28.416 TRCE timeout_conn: currently registered: 1
+Dec 22 03:11:28.420 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:28.421 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:28.536 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:29.590 TRCE read_msg: start
+Dec 22 03:11:29.591 DEBG peer total_diff @ height (ping/pong): 34.213.47.21:13414: 182144229 @ 27252 vs us: 1 @ 0
+Dec 22 03:11:29.591 TRCE read_msg: done (via cpu_pool)
+Dec 22 03:11:29.591 TRCE write_msg: start
+Dec 22 03:11:29.591 TRCE write_msg: done
+Dec 22 03:11:29.591 TRCE read_msg: count (per buffered fold): 3
+Dec 22 03:11:29.835 TRCE read_msg: start
+Dec 22 03:11:29.836 DEBG peer total_diff @ height (ping/pong): 51.15.219.12:13414: 16016789 @ 3958 vs us: 1 @ 0
+Dec 22 03:11:29.836 TRCE timeout_conn: received: PeerAddrs, None
+Dec 22 03:11:29.836 TRCE read_msg: done (via cpu_pool)
+Dec 22 03:11:29.836 TRCE write_msg: start
+Dec 22 03:11:29.836 TRCE write_msg: done
+Dec 22 03:11:29.836 TRCE read_msg: count (per buffered fold): 2
+Dec 22 03:11:30.051 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:30.062 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:30.417 TRCE timeout_conn: currently registered: 1
+Dec 22 03:11:30.417 TRCE timeout_conn: timeout: PeerAddrs, None
+Dec 22 03:11:30.417 INFO Client 51.15.219.12:13414 connection lost: Timeout
+Dec 22 03:11:30.424 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:30.424 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:30.535 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:32.053 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:32.064 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:32.419 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:32.421 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:32.535 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:34.049 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:34.061 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:34.423 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:34.424 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:34.536 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:36.052 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:36.062 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:36.420 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:36.426 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:36.536 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:38.050 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:38.062 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:38.135 TRCE read_msg: start
+Dec 22 03:11:38.136 DEBG peer total_diff @ height (ping/pong): 192.241.168.77:13414: 179621832 @ 26127 vs us: 1 @ 0
+Dec 22 03:11:38.136 TRCE read_msg: done (via cpu_pool)
+Dec 22 03:11:38.136 TRCE write_msg: start
+Dec 22 03:11:38.136 TRCE write_msg: done
+Dec 22 03:11:38.136 TRCE read_msg: count (per buffered fold): 3
+Dec 22 03:11:38.424 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:38.424 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:38.536 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:38.635 TRCE read_msg: start
+Dec 22 03:11:38.635 DEBG peer total_diff @ height (ping/pong): 174.138.116.153:13414: 182144229 @ 27252 vs us: 1 @ 0
+Dec 22 03:11:38.635 TRCE read_msg: done (via cpu_pool)
+Dec 22 03:11:38.636 TRCE write_msg: start
+Dec 22 03:11:38.636 TRCE write_msg: done
+Dec 22 03:11:38.636 TRCE read_msg: count (per buffered fold): 3
+Dec 22 03:11:40.053 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:40.062 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:40.068 TRCE read_msg: start
+Dec 22 03:11:40.069 DEBG peer total_diff @ height (ping/pong): 109.74.202.16:13414: 180108492 @ 27189 vs us: 1 @ 0
+Dec 22 03:11:40.069 TRCE read_msg: done (via cpu_pool)
+Dec 22 03:11:40.069 TRCE read_msg: count (per buffered fold): 3
+Dec 22 03:11:40.069 TRCE write_msg: start
+Dec 22 03:11:40.069 TRCE write_msg: done
+Dec 22 03:11:40.423 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:40.426 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:40.535 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:42.054 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:42.062 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:42.420 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:42.424 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:42.534 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:43.636 TRCE timeout_conn: registering: Pong, None
+Dec 22 03:11:43.636 TRCE timeout_conn: registering: Pong, None
+Dec 22 03:11:43.636 TRCE timeout_conn: registering: Pong, None
+Dec 22 03:11:43.636 TRCE timeout_conn: registering: Pong, None
+Dec 22 03:11:43.636 TRCE timeout_conn: registering: Pong, None
+Dec 22 03:11:43.636 TRCE write_msg: start
+Dec 22 03:11:43.636 TRCE write_msg: done
+Dec 22 03:11:43.637 TRCE write_msg: start
+Dec 22 03:11:43.637 TRCE write_msg: done
+Dec 22 03:11:43.637 TRCE write_msg: start
+Dec 22 03:11:43.637 TRCE write_msg: done
+Dec 22 03:11:43.637 TRCE write_msg: start
+Dec 22 03:11:43.637 TRCE write_msg: done
+Dec 22 03:11:43.637 TRCE write_msg: start
+Dec 22 03:11:43.638 TRCE write_msg: done
+Dec 22 03:11:43.677 TRCE read_msg: start
+Dec 22 03:11:43.677 DEBG peer total_diff @ height (ping/pong): 174.138.116.153:13414: 182144229 @ 27252 vs us: 1 @ 0
+Dec 22 03:11:43.677 TRCE read_msg: done (via cpu_pool)
+Dec 22 03:11:43.677 TRCE read_msg: start
+Dec 22 03:11:43.677 TRCE read_msg: count (per buffered fold): 4
+Dec 22 03:11:43.677 DEBG peer total_diff @ height (ping/pong): 192.241.168.77:13414: 179621832 @ 26127 vs us: 1 @ 0
+Dec 22 03:11:43.677 TRCE read_msg: done (via cpu_pool)
+Dec 22 03:11:43.677 TRCE read_msg: count (per buffered fold): 4
+Dec 22 03:11:43.763 TRCE read_msg: start
+Dec 22 03:11:43.763 DEBG peer total_diff @ height (ping/pong): 109.74.202.16:13414: 180108492 @ 27189 vs us: 1 @ 0
+Dec 22 03:11:43.763 TRCE read_msg: done (via cpu_pool)
+Dec 22 03:11:43.764 TRCE read_msg: count (per buffered fold): 4
+Dec 22 03:11:43.764 TRCE read_msg: start
+Dec 22 03:11:43.764 DEBG peer total_diff @ height (ping/pong): 34.213.47.21:13414: 182144229 @ 27252 vs us: 1 @ 0
+Dec 22 03:11:43.764 TRCE read_msg: done (via cpu_pool)
+Dec 22 03:11:43.764 TRCE read_msg: count (per buffered fold): 4
+Dec 22 03:11:43.777 TRCE read_msg: start
+Dec 22 03:11:43.777 DEBG peer total_diff @ height (ping/pong): 46.4.91.48:13414: 179621832 @ 26127 vs us: 1 @ 0
+Dec 22 03:11:43.777 TRCE read_msg: done (via cpu_pool)
+Dec 22 03:11:43.778 TRCE read_msg: count (per buffered fold): 5
+Dec 22 03:11:44.054 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:44.063 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:44.424 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:44.425 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:44.533 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:45.285 TRCE read_msg: start
+Dec 22 03:11:45.286 DEBG peer total_diff @ height (ping/pong): 46.4.91.48:13414: 179621832 @ 26127 vs us: 1 @ 0
+Dec 22 03:11:45.286 TRCE read_msg: done (via cpu_pool)
+Dec 22 03:11:45.286 TRCE read_msg: count (per buffered fold): 6
+Dec 22 03:11:45.286 TRCE write_msg: start
+Dec 22 03:11:45.287 TRCE write_msg: done
+Dec 22 03:11:46.053 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:46.064 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:46.421 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:46.422 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:46.534 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:48.050 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:48.065 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:48.261 TRCE read_msg: start
+Dec 22 03:11:48.262 DEBG Got 6 peer addrs to send.
+Dec 22 03:11:48.262 TRCE read_msg: done (via cpu_pool)
+Dec 22 03:11:48.262 TRCE read_msg: count (per buffered fold): 5
+Dec 22 03:11:48.262 TRCE write_msg: start
+Dec 22 03:11:48.262 TRCE write_msg: done
+Dec 22 03:11:48.420 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:48.426 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:48.537 TRCE timeout_conn: currently registered: 0
+Dec 22 03:11:48.675 TRCE read_msg: start
+Dec 22 03:11:48.682 DEBG handle_payload: Block f8556e61
+Dec 22 03:11:48.682 DEBG Received block f8556e61 at 27253 from network, going to process.
+Dec 22 03:11:48.682 DEBG pipe: process_block f8556e61 at 27253 with 0 inputs and 1 outputs.
+Dec 22 03:11:48.683 DEBG pipe: validate_header cuckoo size 16
+Dec 22 03:11:48.683 DEBG process_block: orphan: f8556e61, (dropping, height 27253 vs 0)
+Dec 22 03:11:48.683 DEBG Block f8556e61 refused by chain: Orphan
+Dec 22 03:11:48.684 TRCE read_msg: done (via cpu_pool)
+Dec 22 03:11:48.684 TRCE read_msg: count (per buffered fold): 5
+Dec 22 03:11:48.860 TRCE read_msg: start
+Dec 22 03:11:48.864 DEBG handle_payload: Block f8556e61
+Dec 22 03:11:48.865 DEBG Received block f8556e61 at 27253 from network, going to process.
+Dec 22 03:11:48.865 DEBG pipe: process_block f8556e61 at 27253 with 0 inputs and 1 outputs.
+Dec 22 03:11:48.865 DEBG pipe: validate_header cuckoo size 16
+Dec 22 03:11:48.866 DEBG process_block: orphan: f8556e61, (dropping, height 27253 vs 0)
+Dec 22 03:11:48.866 DEBG Block f8556e61 refused by chain: Orphan
+Dec 22 03:11:48.866 TRCE read_msg: done (via cpu_pool)
+Dec 22 03:11:48.866 TRCE read_msg: count (per buffered fold): 5
+Dec 26 22:39:58.506 INFO Using configuration file at: /Users/Dillon/grin/grin.toml

@@ -136,6 +136,12 @@ impl Peer {
 		*state = State::Banned;
 	}
 
+	/// Set this peer status to banned
+	pub fn set_unbanned(&self) {
+		let mut state = self.state.write().unwrap();
+		*state = State::Disconnected;
+	}
+
 	/// Bytes sent and received by this peer to the remote peer.
 	pub fn transmitted_bytes(&self) -> (u64, u64) {
 		self.proto.transmitted_bytes()
